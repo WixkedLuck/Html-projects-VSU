@@ -1,0 +1,13 @@
+<body>
+<div class="column"> CSS gradients let you display smooth transitions between two or more specified colors.
+</div>
+<div class="column"> To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+</div>
+<div class="column"> The following example shows a linear gradient that starts at the top. It starts red, transitioning to yellow:
+</div>
+<p id="aftercolumns"> I am the text that follows
+the columns. This is some really important text.
+You had better read it if you know what's good for
+you.
+</p>
+<link href="StyleSheet.css" rel="stylesheet">

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+
+  <head>
+    <title>homework3.html</title>
+    <meta charset = "UTF-8" />
+  </head>
+  <body>
+    <h1>Welcome to our personalization page! Please answer a few of our questions</h1>
+    
+	<form action submit_job.php>
+	<div>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <p>
+          <label>First Name</label>
+          <input type = "text"
+                 id = "myText"
+                  />
+        </p>
+		
+		<p>
+          <label>Middle Name</label>
+          <input type = "text"
+                 id = "myText"
+                  />
+        </p>
+		<p>
+          <label>Last Name</label>
+          <input type = "text"
+                 id = "myText"
+                  />
+        </p>
+		<label for="Gender">Gender</label>
+
+<select id=<"Gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+ 
+</select>
+		<p>
+          <label>Date of Birth</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "mm/dd/yyyy" />
+        </p>
+<p>
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+</p>
+<label for="Country of Residence">Country of Residence</label>
+
+<select id=<"Country of Residence">
+  
+ 
+</select>    
+      </fieldset>
+	  
+	  
+	  <fieldset>
+	  <legend>Your photo</legend>
+	  
+ <div>
+   <label for="file">Your image</label>
+   <input type="file" id="file" name="file" multiple>
+ </div>
+ <p>
+ Image Preview</p>
+ 
+  </fieldset>
+<p>
+What do you use? Platforms, OS, programming languages, architectures, ect...</p>
+<label><input type="checkbox" name="Platform[]" value="Java" /> Java</label>
+        <label><input type="checkbox" name="Platform[]" value="Android" /> Android</label>
+        <label><input type="checkbox" name="Platform[]" value="HTML" /> HTML</label>
+		<label><input type="checkbox" name="Platform[]" value="JavaScript" /> JavaScript</label>
+		<label><input type="checkbox" name="Platform[]" value="C" /> C</label>
+		<label><input type="checkbox" name="Platform[]" value="jQuery" /> jQuery</label>
+		<label><input type="checkbox" name="Platform[]" value="MySQL" /> MySQL</label>
+		<label><input type="checkbox" name="Platform[]" value="PHP" /> PHP</label>
+		<label><input type="checkbox" name="Platform[]" value="CSS" /> CSS</label>
+
+ <fieldset>
+	  <legend>More Info About you</legend>
+	  <p>
+	  <div class="slidecontainer">
+  Height: 5ft<input type="range" min="1" max="100" value="50" class="slider" id="myRange"> 7ft
+</div>
+<p>   
+<div class="slidecontainer">
+ Expected Salary: 10K <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  150K 
+</div>	
+
+</p> 
+<p>
+Are you working now? 
+</p>
+<form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" checked>Yes
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">No
+    </label>
+    
+  </form>
+</div>
+	    
+	  
+</fieldset>	  
+
+ <fieldset>
+ <legend>Your Contact Infromation</legend>	  
+  <p>
+          <label>Email</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "" />
+        </p>
+<p>
+          <label>Mobile</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "" />
+        </p>
+
+  <p>
+          <label>Address</label>
+          <textarea> 
+                  rows = "3"
+                  cols = "24"></textarea>
+        </p>
+
+
+
+
+
+<p> Method to contact you:
+		<label><input type="checkbox" name="sports[]" value="Email" /> Email</label>
+        <label><input type="checkbox" name="sports[]" value="WhatsApp" /> WhatsApp</label>
+        <label><input type="checkbox" name="sports[]" value="Skype" /> Skype</label>
+
+
+  </p>
+	  
+	  
+	</fieldset>  
+	<input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+ </div>
+</div>  
+	  
+	  
+	  
+	  
+	  
+	  
+    </form>
+	
+	
+	
